@@ -2,7 +2,7 @@
 
 Welcome to my professional repository for end-to-end Time Series Analysis and Machine Learning solutions. This portfolio showcases production-ready frameworks designed to transform temporal data into strategic business assets.
 
-## 🎯 Strategic Focus
+## 🎯 Strategic Focus 
 My work focuses on bridging the gap between raw industrial/commercial data and actionable decision-making. By leveraging advanced forecasting techniques, I help organizations transition from reactive operations to predictive intelligence.
 
 ---
