@@ -36,6 +36,6 @@ To ensure the model is "trustworthy" for maintenance technicians, we utilize:
 2. **Local SHAP Waterfall Charts:** Decomposing individual predictions to show the exact contribution of each rolling mean and lag feature.
 
 ---
-**Najeeb P.A** | *Senior Industrial AI Consultant*
-Singapore (Remote Freelance covering UAE & SEA)
+**Najeeb P.A** | *Senior Industrial AI Consultant* <br>
+Singapore (Remote Freelance covering UAE & SEA) <br>
 Expertise: Analytical Chemistry | Precision Engineering | Quality Management
