@@ -42,5 +42,14 @@ We utilize SHAP (SHapley Additive exPlanations) Waterfall charts to provide a "d
 ## 🚀 Deployment Use-Case
 This framework is designed to be integrated into a maintenance dashboard. By inputting the latest sensor snapshots, the system outputs an **Urgency Leaderboard**, allowing maintenance teams in sectors like Aviation or Oil & Gas to prioritize assets based on true failure risk rather than arbitrary schedules.
 
+  ## 🤝 Connect & Collaborate
+
+**Najeeb P.A** *Senior Industrial AI Consultant | Time Series & Predictive Analytics Specialist*
+
+* **Location:** Singapore (Remote Freelance covering UAE & SEA)
+* **Expertise:** Time Series Analysis | Analytical Chemistry | Precision Engineering | Quality Management (TS 16949/ISO 9001)
+* **Contact:** [najeebpa81@gmail.com](mailto:najeebpa81@gmail.com) | +65 91817634
+
+
 
 
