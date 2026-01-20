@@ -1,0 +1,30 @@
+{
+  "project_name": "NASA-CMAPSS-Turbofan-Predictive-Maintenance",
+  "model_type": "XGBoost Regressor",
+  "feature_count": 60,
+  "input_features": [
+    "s2", "s3", "s4", "s7", "s8", "s9", "s11", "s12", "s13", "s14", "s15", "s17", "s20", "s21",
+    "s2_rolling_mean", "s3_rolling_mean", "s4_rolling_mean", "s7_rolling_mean", "s8_rolling_mean", 
+    "s9_rolling_mean", "s11_rolling_mean", "s12_rolling_mean", "s13_rolling_mean", "s14_rolling_mean", 
+    "s15_rolling_mean", "s17_rolling_mean", "s20_rolling_mean", "s21_rolling_mean",
+    "s2_rolling_std", "s3_rolling_std", "s4_rolling_std", "s7_rolling_std", "s8_rolling_std", 
+    "s9_rolling_std", "s11_rolling_std", "s12_rolling_std", "s13_rolling_std", "s14_rolling_std", 
+    "s15_rolling_std", "s17_rolling_std", "s20_rolling_std", "s21_rolling_std",
+    "s2_lag_5", "s3_lag_5", "s4_lag_5", "s7_lag_5", "s8_lag_5", "s9_lag_5", "s11_lag_5", 
+    "s12_lag_5", "s13_lag_5", "s14_lag_5", "s15_lag_5", "s17_lag_5", "s20_lag_5", "s21_lag_5"
+  ],
+  "preprocessing_parameters": {
+    "rolling_window_size": 10,
+    "lag_size": 5,
+    "target_rul_cap": 125,
+    "missing_values_strategy": "constant_removal"
+  },
+  "sensor_descriptions": {
+    "s2": "Inlet Temperature (Total)",
+    "s3": "LPC Outlet Temperature",
+    "s4": "HPC Outlet Temperature",
+    "s7": "P30 (HPC Outlet Pressure)",
+    "s11": "HPC Speed",
+    "s15": "LPT Outlet Pressure"
+  }
+}
