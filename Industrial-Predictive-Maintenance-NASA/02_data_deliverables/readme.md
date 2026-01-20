@@ -22,9 +22,6 @@ This folder contains the production-ready assets required to deploy the Predicti
 * **Description:** Documentation of the constants used for data cleaning (e.g., the 125-cycle RUL cap).
 * **Significance:** Any live data must be clipped or normalized using these exact parameters to prevent "Feature Drift" and maintain the **13.76 MAE** accuracy.
 
-### 4. Sample Inference Input (`sample_test_snapshot.csv`)
-* **Description:** A small snippet of preprocessed test data (last cycles of Units 82, 81, etc.).
-* **Purpose:** Serves as a "Smoke Test" file. If a developer runs the model on this file and gets the predicted RULs listed in the **Urgency Leaderboard**, the deployment is successful.
 
 ---
 
